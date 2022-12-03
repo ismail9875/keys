@@ -321,7 +321,7 @@ class KeyAdderUpdate(Screen):
                 myurl = 'http://drive.google.com/uc?authuser=0&id=1aujij43w7qAyPHhfBLAN9sE-BZp8_AwI&export=download'
                 command = 'wget -O %s %s' % (SoftCamKey, myurl)
                 self.session.open(imagedownloadScreen,'softcam',SoftCamKey,myurl)
-            elif select[1] == "IsmailSaid":
+            elif select[1] == "IsmailSaidi":
                 myurl = 'https://raw.githubusercontent.com/ismail9875/keys/main/SoftCam.key'
                 command = 'wget -O %s %s %s %s' % (crt, agent, SoftCamKey, myurl)
                 self.session.open(imagedownloadScreen,'softcam',SoftCamKey,myurl)
