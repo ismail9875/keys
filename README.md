@@ -9,4 +9,4 @@ installer for .deb OS
 
 installer for .ipk
 
-<code> wget wget https://raw.githubusercontent.com/ismail9875/keys/main/installer.sh -qO - | /bin/sh <code>
+<code> wget https://raw.githubusercontent.com/ismail9875/keys/main/installer.sh -qO - | /bin/sh <code>
