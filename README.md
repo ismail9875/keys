@@ -9,4 +9,4 @@
 ___
 **installer for .ipk**
 
-<code> wget https://raw.githubusercontent.com/ismail9875/keys/main/installer.sh -O - | /bin/sh <code>
+`wget https://raw.githubusercontent.com/ismail9875/keys/main/installer.sh -O - | /bin/sh`
