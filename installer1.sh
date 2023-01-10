@@ -3,7 +3,7 @@ echo "##############################################"
 echo "############ KEYADDER[Bissfeed] ##############"
 echo "##############################################"
 wget -O /tmp/enigma2-plugin-extensions-keyadder_v1.0_all.deb "https://github.com/ismail9875/keys/blob/main/enigma2-plugin-extensions-keyadder_v1.0_all.deb?raw=true"
-dpkg install --force-overwrite /tmp/*.deb
+opkg install --force-overwrite /tmp/*.deb
 echo ""
 cd ..
 sync
